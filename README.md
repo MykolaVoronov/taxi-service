@@ -11,8 +11,8 @@ This application has several possibilities, namely:
 
 ### Implementation details and technologies
 #### Project based on 3-layer architecture:
-* Presentation layer (controllers)\
-* Application layer (services)\
+* Presentation layer (controllers)
+* Application layer (services)
 * Data access layer (DAO)
 
 #### Technologies
