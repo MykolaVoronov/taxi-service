@@ -16,7 +16,7 @@ This application has several possibilities, namely:
 * Data access layer (DAO)
 
 #### Technologies
-* Apache Tomcat (9.0.50)
+* Apache Tomcat
 * Servlet
 * JDBC
 * MySQL
@@ -24,11 +24,16 @@ This application has several possibilities, namely:
 * HTML, CSS
 * JSP
 * Maven
+* log4j
 
 #### Setup
 1. Install and configure MySQL & MySQL Workbench
-2. Install and configure Tomcat
+2. Install and configure Tomcat 9.0.56
 3. In MySQL Workbench, execute the script from resources/init_db.sql
-4. Link the database to the application: in /util/ConnectionUtil.java, change the USER, PASSWORD, and URL constants to the ones you used when configuring MySQL. JDBC_DRIVER change if you are using another DBMS.
-5. Specify your absolute path to the file where you want to write logs in the file /resources/log4j2.xml instead of "YOUR ABSOLUTE PATH TO THE LOG FILE".
-6. After that you can run the application ;)
+4. Link the database to the application:
+
+   * *In the /util/ConnectionUtil.java, change the USERNAME, PASSWORD, and URL constants to the ones you used when configuring MySQL. JDBC_DRIVER change if you are using another DBMS.*
+   
+
+6. Specify your absolute path to the file where you want to write logs in the file /resources/log4j2.xml instead of "YOUR ABSOLUTE PATH TO THE LOG FILE".
+7. After that you can run the application ;)
